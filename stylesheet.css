@@ -114,7 +114,6 @@ body {
 
 .vertical-menu a.active {
   background-color: #ccc; /* Add a dark grey color to the "active/current" link */
-  color: white;
 }
 
 
