@@ -73,7 +73,7 @@ body {
   background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
-.vertical-menu a.active {
+.vertical-menu a:active {
   background-color: #ccc; /* Add a dark grey color to the "active/current" link */
 }
 
