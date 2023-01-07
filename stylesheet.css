@@ -61,6 +61,22 @@ body {
   padding: 20px;
 }
 
+.vertical-menu a {
+  background-color: #f1f1f1; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #ccc; /* Add a dark grey color to the "active/current" link */
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -97,26 +113,6 @@ body {
     float: none;
     width:100%;
   }
-}
-
-.vertical-menu {
-  flex: 20%;
-}
-
-.vertical-menu a {
-  background-color: #f1f1f1; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-}
-
-.vertical-menu a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
-}
-
-.vertical-menu a.active {
-  background-color: #ccc; /* Add a dark grey color to the "active/current" link */
 }
 
 
