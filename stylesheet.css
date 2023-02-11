@@ -91,6 +91,15 @@ body {
   padding: 20px;
 }
 
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
 .footer {
   padding: 20px;
   width: 100%;
