@@ -124,3 +124,54 @@ figcaption {
 #more {display: none;}
 
 #more1 {display: none;}
+
+
+ul {list-style-type: none;}
+
+/* vliegtijd header */
+.vliegtijd {
+  padding: 20px 25px;
+  width: 100%;
+  background: #09660c;
+  text-align: center;
+}
+
+/* vliegtijd list */
+.vliegtijd ul {
+  margin: 0;
+  padding: 0;
+}
+
+.vliegtijd ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* maand (jan-dec) */
+.maand {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.maand li {
+  display: inline-block;
+  width: 7.8%;
+  color: #666;
+  text-align: center;
+}
+
+/* Highlight the momths */
+.maand li .high {
+  padding: 5px 40px;
+  background: #09660c;
+  color: white !important
+}
+
+.maand li .low {
+  padding: 5px 40px;
+  background: #4ca154;
+  color: white !important
+}
