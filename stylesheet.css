@@ -165,13 +165,13 @@ ul {list-style-type: none;}
 
 /* Highlight the momths */
 .maand li .high {
-  padding: 5px 40px;
+  padding: 5px 40%;
   background: #09660c;
   color: white !important
 }
 
 .maand li .low {
-  padding: 5px 40px;
+  padding: 5px 40%;
   background: #4ca154;
   color: white !important
 }
