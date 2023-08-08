@@ -73,6 +73,14 @@ body {
   background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
+.vertical-menu a {
+  background-color: #ccc; /* Dark grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
 .center {
   display: block;
   margin-left: auto;
