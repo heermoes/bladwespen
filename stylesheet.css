@@ -73,14 +73,6 @@ body {
   background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
-.vertical-menu a {
-  background-color: #ccc; /* Dark grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-}
-
 .center {
   display: block;
   margin-left: auto;
@@ -182,4 +174,14 @@ ul {list-style-type: none;}
   padding: 5px 40%;
   background: #4ca154;
   color: white !important
+}
+
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
 }
